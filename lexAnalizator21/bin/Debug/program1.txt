@@ -1,0 +1,22 @@
+program p1
+var
+a,b,c :real
+label
+m1,m2
+begin
+a = ((a+b ) * c) / ( c + b )	
+a=a+b
+do a=b to 9
+do a=b to 9
+a=10
+b=b+1
+do a=b to 9
+next
+if [[a<b] or [c>1]] and [a > 1] then goto m2
+b=c/a
+next
+m2:
+write(c)
+next
+read(b)
+end

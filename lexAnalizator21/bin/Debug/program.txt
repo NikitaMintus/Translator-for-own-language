@@ -1,0 +1,17 @@
+program p1
+var
+a,b,c :real
+label
+m1,m2
+begin
+do a=0 to 3
+b=b+1
+write(b)
+next
+if a<b then goto m2
+b = 10
+m2:
+read(a,b)
+c = 5
+write(c,b)
+end
